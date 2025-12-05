@@ -10,8 +10,11 @@
 
 # Loan Default Prediction – Credit Risk Modeling (XGBoost)
 
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-
+<p align="center">
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg">
+  </a>
+</p>
 
 ## 1. Project Overview
 
