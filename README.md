@@ -8,9 +8,10 @@
   End-to-End Machine Learning Pipeline | XGBoost | Cost Sensitive Learning | SHAP Explainability | Streamlit App
 </p>
 
-
-
 # Loan Default Prediction – Credit Risk Modeling (XGBoost)
+
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
 
 ## 1. Project Overview
 
