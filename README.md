@@ -1,3 +1,15 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Finance%20ML%20Project-Loan%20Default%20Prediction-blue?style=for-the-badge">
+</p>
+
+<h1 align="center">Loan Default Prediction (Credit Risk Modeling)</h1>
+
+<p align="center">
+  End-to-End Machine Learning Pipeline | XGBoost | Cost Sensitive Learning | SHAP Explainability | Streamlit App
+</p>
+
+
+
 # Loan Default Prediction – Credit Risk Modeling (XGBoost)
 
 ## 1. Project Overview
@@ -85,6 +97,40 @@ Project2_Loan_Default/
 ### Business Threshold Optimization
 - Optimal threshold: **0.08**
 - Minimum financial loss: **₹3.57 Crores**
+
+---
+
+## Model Versioning
+
+### Model V1
+- Trained on full 41 features
+- Baseline AUC: ~0.663
+- Business threshold: ~0.07
+- Total minimum loss: ₹3.57 Cr (approx)
+- Streamlit app had missing-column issues due to many unused features
+
+### Model V2 (Current Production Model)
+- Trained on **12 clean, high-signal features** only
+- Better stability and lower overfitting
+- Cleaner preprocessing pipeline
+- Perfectly aligned with Streamlit inputs
+- Business threshold recalculated
+- Fully production-ready
+
+**V2 Model Files**
+```
+models/
+   loan_default_xgb_pipeline_v2.pkl
+   best_threshold_v2.txt
+   final_features.json
+```
+
+**Why V2 is Better**
+- Removes noisy or irrelevant columns
+- Matches real-world credit risk modeling practices
+- Faster inference in Streamlit
+- No feature mismatch errors
+- More interpretable for business teams
 
 ---
 
