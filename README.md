@@ -57,6 +57,9 @@ Project2_Loan_Default/
 ### SHAP Summary Plot
 ![SHAP Summary](assets/shap_summary.png)
 
+### Streamlit App UI
+![Streamlit UI](assets/streamlit_app.png)
+
 ---
 
 ## 4. Key Features
