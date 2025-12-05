@@ -5,16 +5,15 @@
 <h1 align="center">Loan Default Prediction (Credit Risk Modeling)</h1>
 
 <p align="center">
-  End-to-End Machine Learning Pipeline | XGBoost | Cost Sensitive Learning | SHAP Explainability | Streamlit App
-</p>
-
-# Loan Default Prediction – Credit Risk Modeling (XGBoost)
-
-<p align="center">
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-green.svg">
   </a>
 </p>
+
+<p align="center">
+  End-to-End Machine Learning Pipeline | XGBoost | Cost Sensitive Learning | SHAP Explainability | Streamlit App
+</p>
+
 
 ## 1. Project Overview
 
